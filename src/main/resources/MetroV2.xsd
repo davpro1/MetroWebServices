@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/MetroV2" 
+xmlns:tns="http://www.example.org/MetroV2" 
+elementFormDefault="qualified">
+	<!-- La fecha de partida se ingresa con el siguiente formato YYYY-MM-DD -->
+	<element name="ReservaBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="FechaPartida" type="date"></element>
+				<element name="EstacionOrigen" type="string"></element>
+				<element name="EstacionDestino" type="string"></element>
+				<element name="ElegirVagon" type="string"></element>
+				<element name="IngresaMetodoPago" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="ReservaBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string">
+					
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="EditarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="NuevafechaPartida" type="date"></element>
+				<element name="NuevaEstacionOrigen" type="string"></element>
+				<element name="NuevaEstacionDestino" type="string"></element>
+				<element name="NuevoVagon" type="string"></element>
+				<element name="NuevoMetodoPago" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="EditarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string">
+					
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="CancelarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="CancelarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string">
+					
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="BuscarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="BuscarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	
+	<element name="RegistrarClienteRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+				<element name="apellido" type="string"></element>
+				<element name="telefono" type="string"></element>
+				<element name="correo" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="RegistrarClienteResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string">
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="EditarClienteRequest">
+		<complexType>
+			<sequence>
+				<element name="nombre" type="string"></element>
+				<element name="apellido" type="string"></element>
+				<element name="telefono" type="string"></element>
+				<element name="correo" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="EditarClienteResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
