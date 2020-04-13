@@ -7,12 +7,12 @@ Se llevara un registro del avance en el desarrollo de proyecto
 [Link del Servidor](http://54.162.225.248:8080/hotel.wsdl) 
 
 ## Funcionalidades del servicio
-- [ ] Reservar un boleto
-- [ ] Editar reserva de Boleto
-- [ ] Cancelar reserva de Boleto
-- [ ] Buscar boleto
-- [ ] Registrar Cliente
-- [ ] Editar Cliente
+- [x] Reservar un boleto
+- [x] Editar reserva de Boleto
+- [x] Cancelar reserva de Boleto
+- [x] Buscar boleto
+- [x] Registrar Cliente
+- [x] Editar Cliente
 
 ## Diagrama de clases
 
