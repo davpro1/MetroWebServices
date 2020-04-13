@@ -4,7 +4,7 @@ El siguiente proyecto, es realizado para la Experiencia Educativa "Tecnologias p
 Se llevara un registro del avance en el desarrollo de proyecto
 
 ## Servidor para acceder
-[Link del Servidor](http://54.162.225.248:8080/hotel.wsdl) 
+[Link del Servidor](http://3.91.49.75:8080/MetroV2.wsdl) 
 
 ## Funcionalidades del servicio
 - [x] Reservar un boleto
