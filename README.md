@@ -3,6 +3,9 @@ ServicioWeb Metro
 El siguiente proyecto, es realizado para la Experiencia Educativa "Tecnologias para la integracion de soluciones" 
 Se llevara un registro del avance en el desarrollo de proyecto
 
+La tercera version ya se encuentra en Pull requests
+Aún no es subida al servidor
+
 ## Servidor para acceder
 [Link del Servidor](http://3.91.49.75:8080/MetroV2.wsdl) 
 
