@@ -11,11 +11,11 @@ Aún no es subida al servidor
 
 ## Funcionalidades del servicio
 - [x] Reservar un boleto
-- [x] Editar reserva de Boleto
+- [ ] Editar reserva de Boleto (Aun no funciona)
 - [x] Cancelar reserva de Boleto
 - [x] Buscar boleto
 - [x] Registrar Cliente
-- [x] Editar Cliente
+- [ ] Editar Cliente (Aun no funciona)
 
 ## Diagrama de clases
 
