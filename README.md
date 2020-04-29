@@ -6,16 +6,18 @@ Se llevara un registro del avance en el desarrollo de proyecto
 La tercera version ya se encuentra en Pull requests
 Aún no es subida al servidor
 
+El proyecto terminado ya se encuentra en el repositorio como "ProyectoMetro"
+Se realizaron modificaciones en las clases utilizadas y en las funcionalidades del servicio
+
 ## Servidor para acceder
-[Link del Servidor](http://3.91.49.75:8080/MetroV2.wsdl) 
+[Link del Servidor](http://3.91.49.75:8080/ProyectoMetro.wsdl) 
 
 ## Funcionalidades del servicio
 - [x] Reservar un boleto
-- [ ] Editar reserva de Boleto (Aun no funciona)
+- [x] Editar reserva de Boleto
 - [x] Cancelar reserva de Boleto
 - [x] Buscar boleto
-- [x] Registrar Cliente
-- [ ] Editar Cliente (Aun no funciona)
+
 
 ## Diagrama de clases
 
@@ -42,26 +44,6 @@ Aún no es subida al servidor
 | NuevoMetodoPago        | String |
 
 
-### Registrar cliente
-
-| Atributo             | Tipo   |
-| -------------------- | ------ |
-| idCliente            | Int    |
-| nombre               | String |
-| apellido             | String |
-| telefono             | String |
-| correo               | String |
-
-### Editar cliente
-
-| Atributo             | Tipo   |
-| -------------------- | ------ |
-| nombre               | String |
-| apellido             | String |
-| telefono             | String |
-| correo               | String |
-
-
 
 ## Mensajes
 - Reservar boleto
@@ -76,16 +58,6 @@ Para editar el boleto, se solicita el ID del boleto, y se ingresan los datos nue
 
 Se ingresa el ID del boleto, Envia un mensaje "El boleto ha sido cancelado"
 
-- Registrar Cliente
+- Buscar Boleto
 
 Este metodo solicita el ID del Boleto que se quiere buscar, el mensaje que regresa son los datos de la Reserva que se hizo.
-
-- Registrar cliente
-
-Se ingresan los datos del cliente y regresa un mensaje donde indica que el registro fue exitoso, en siguiente version se pretende que regrese el mismo mensaje agregandole un ID al cliente
-
-- Editar cliente
-
-Se ingresa el ID del cliente, despues se modifican los datos solicitados al registrar al cliente, regresa un mensaje indicando que los datos del cliente fueron actualizados correctamente
-
-El README sera actualizado a la brevedad
