@@ -1,0 +1,77 @@
+----------------------------------------------------------------
+Wed Apr 29 12:15:25 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0171-c6ef-9886-000001f67938 
+on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Usuario/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\Usuario\Desktop\ProyectoMetro
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Apr 29 12:18:17 CDT 2020:
+Shutting down instance a816c00e-0171-c6ef-9886-000001f67938 on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+----------------------------------------------------------------
+Wed Apr 29 12:18:29 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 176240b2-0171-c6ef-9886-000001f67938 
+on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Usuario/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\Usuario\Desktop\ProyectoMetro
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Apr 29 12:20:49 CDT 2020:
+Shutting down instance 176240b2-0171-c6ef-9886-000001f67938 on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+----------------------------------------------------------------
+Wed Apr 29 12:20:57 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a0f1c156-0171-c6ef-9886-000001f67938 
+on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Usuario/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\Usuario\Desktop\ProyectoMetro
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Apr 29 12:29:10 CDT 2020:
+Shutting down instance a0f1c156-0171-c6ef-9886-000001f67938 on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+----------------------------------------------------------------
+Wed Apr 29 12:29:19 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 44c541fa-0171-c6ef-9886-000001f67938 
+on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Usuario/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\Usuario\Desktop\ProyectoMetro
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Apr 29 12:30:13 CDT 2020:
+Shutting down instance 44c541fa-0171-c6ef-9886-000001f67938 on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+----------------------------------------------------------------
+Wed Apr 29 12:30:30 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 02dcc29e-0171-c6ef-9886-000001f67938 
+on database directory memory:C:\Users\Usuario\Desktop\ProyectoMetro\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/Usuario/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_241-b07
+user.dir=C:\Users\Usuario\Desktop\ProyectoMetro
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
