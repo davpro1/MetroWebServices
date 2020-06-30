@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/ProyectoMetro" 
+xmlns:tns="http://www.example.org/ProyectoMetro" 
+elementFormDefault="qualified">
+	<!-- La fecha de partida se ingresa con el siguiente formato YYYY-MM-DD -->
+	<!-- Las lineas disponibles son: Linea 1 = CDMX,Linea 2 = Londres,Linea 3 = Guangzhou, Linea 4 = Paris, Linea 5 = Madrid, Linea 6 = Tokio, Linea 7 = Moscu, Linea 8 = Nueva York, Linea 9 = Nueva Delhi, Linea 10 = Buenos Aires -->
+	<!-- Los vagones disponibles son: Discapacidad, 3ra Edad, Mujeres -->
+	<!-- Las formas de pago son: TarjetaMetro, Efectivo, Debito, Credito -->
+	
+
+	<element name="ComprarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="int"></element>
+				<element name="fechaPartida" type="string"></element>
+				<element name="estacionOrigen" type="string"></element>
+				<element name="estacionDestino" type="string"></element>
+				<element name="elegirVagon" type="string"></element>
+				<element name="ingresaMetodoPago" type="string"></element>			
+			</sequence>
+		</complexType>
+	</element>
+		<element name="ComprarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+		<element name="EditarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="int"></element>
+				<element name="fechaPartida" type="string"></element>
+				<element name="estacionOrigen" type="string"></element>
+				<element name="estacionDestino" type="string"></element>
+				<element name="elegirVagon" type="string"></element>
+				<element name="ingresaMetodoPago" type="string"></element>			
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="EditarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="CancelarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="CancelarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="respuesta" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="ConsultarBoletoRequest">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="ConsultarBoletoResponse">
+		<complexType>
+			<sequence>
+				<element name="idBoleto" type="int"></element>
+				<element name="fechaPartida" type="string"></element>
+				<element name="estacionOrigen" type="string"></element>
+				<element name="estacionDestino" type="string"></element>
+				<element name="elegirVagon" type="string"></element>
+				<element name="ingresaMetodoPago" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+
+	
+	<element name="ListaEstacionesRequest">
+		<complexType>
+			<sequence>
+				<element name="linea" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="ListaEstacionesResponse">
+		<complexType>
+			<sequence>
+				<element name="zona" type="string"></element>
+				<element name="precio" type="string"></element>
+				<element name="nombre" type="string"></element>
+				<element name="linea" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
